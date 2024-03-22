@@ -10,10 +10,10 @@ class Node {
     }
 }
 
-class LinkedList {
+public class DeleteByValue {
     Node head;
 
-    LinkedList() {
+    DeleteByValue() {
         this.head = null;
     }
 
@@ -59,11 +59,9 @@ class LinkedList {
             temp = temp.next;
         }
     }
-}
 
-public class DeleteByValue {
     public static void main(String[] args) {
-        LinkedList l = new LinkedList();
+        DeleteByValue l = new DeleteByValue();
         l.insertAtStart(10);
         l.insertAtEnd(20);
         l.insertAtEnd(30);

@@ -10,11 +10,11 @@ class Node {
     }
 }
 
-class LinkedList {
+public class SwapNodes {
     Node head;
 
-    public LinkedList() {
-        head.next = null;
+    public SwapNodes() {
+        this.head = null;
     }
 
     public void insertAtStart(int data) {
@@ -62,11 +62,9 @@ class LinkedList {
             temp = temp.next;
         }
     }
-}
 
-public class SwapNodes {
     public static void main(String[] args) {
-        LinkedList l1 = new LinkedList();
+        SwapNodes l1 = new SwapNodes();
         l1.insertAtStart(10);
         l1.insertAtEnd(20);
         l1.insertAtEnd(10);

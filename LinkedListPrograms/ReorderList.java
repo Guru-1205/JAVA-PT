@@ -10,7 +10,7 @@ class Node {
     }
 }
 
-class LinkedList {
+public class ReorderList {
     Node head;
 
     public LinkedList() {
@@ -79,11 +79,9 @@ class LinkedList {
             second = curr2;
         }
     }
-}
 
-public class ReorderList {
     public static void main(String[] args) {
-        LinkedList l1 = new LinkedList();
+        ReorderList l1 = new ReorderList();
         l1.insertAtStart(10);
         l1.insertAtEnd(20);
         l1.insertAtEnd(30);

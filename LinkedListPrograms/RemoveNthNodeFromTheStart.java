@@ -10,11 +10,11 @@ class Node {
     }
 }
 
-class LinkedList {
+public class RemoveNthNodeFromTheStart {
     Node head;
 
-    public LinkedList() {
-        head.next = null;
+    public RemoveNthNodeFromTheStart() {
+        this.head = null;
     }
 
     public void insertAtStart(int data) {
@@ -58,11 +58,9 @@ class LinkedList {
         slow.next = null;
 
     }
-}
 
-public class RemoveNthNodeFromTheStart {
     public static void main(String[] args) {
-        LinkedList l = new LinkedList();
+        RemoveNthNodeFromTheStart l = new RemoveNthNodeFromTheStart();
         l.insertAtStart(10);
         l.insertAtEnd(20);
         l.insertAtEnd(30);

@@ -10,10 +10,10 @@ class Node {
     }
 }
 
-class LinkedList {
+public class Palindrome {
     Node head;
 
-    LinkedList() {
+    Palindrome() {
         this.head = null;
     }
 
@@ -70,11 +70,8 @@ class LinkedList {
         }
     }
 
-}
-
-public class Palindrome {
     public static void main(String[] args) {
-        LinkedList l1 = new LinkedList();
+        Palindrome l1 = new Palindrome();
         l1.insertAtStart(10);
         l1.insertAtEnd(20);
         l1.insertAtEnd(10);
