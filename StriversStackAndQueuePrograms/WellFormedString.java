@@ -1,4 +1,4 @@
-package Interview_Questions;
+package Interview_Questions.StriversStackAndQueuePrograms;
 
 import java.util.*;
 
