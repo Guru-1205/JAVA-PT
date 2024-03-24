@@ -10,10 +10,10 @@ class Node {
     }
 }
 
-public class RemoveNthNodeFromTheStart {
+public class RemoveNthNodeFromTheLast {
     Node head;
 
-    public RemoveNthNodeFromTheStart() {
+    public RemoveNthNodeFromTheLast() {
         this.head = null;
     }
 
@@ -60,7 +60,7 @@ public class RemoveNthNodeFromTheStart {
     }
 
     public static void main(String[] args) {
-        RemoveNthNodeFromTheStart l = new RemoveNthNodeFromTheStart();
+        RemoveNthNodeFromTheLast l = new RemoveNthNodeFromTheLast();
         l.insertAtStart(10);
         l.insertAtEnd(20);
         l.insertAtEnd(30);

@@ -13,7 +13,7 @@ class Node {
 public class ReorderList {
     Node head;
 
-    public LinkedList() {
+    public ReorderList() {
         this.head = null;
     }
 
