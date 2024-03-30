@@ -19,6 +19,6 @@ public class KthSmallestElementInArray {
 
     public static void main(String[] args) {
         int arr[] = { 1, 4, 5, 12, 2, 7 };
-        System.out.printf("%d", M1(arr, 4));
+        System.out.printf("%d", M1(arr, 3));
     }
 }
